@@ -4,7 +4,7 @@
  * @Author: Dai Junchao
  * @Date: 2020-04-29 09:53:12
  * @LastEditors: Dai Junchao
- * @LastEditTime: 2020-05-09 11:50:08
+ * @LastEditTime: 2020-05-09 12:39:54
  */
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
@@ -14,7 +14,7 @@ import router from './router'
 
 Vue.config.productionTip = false
 
-// 引入阿里巴巴字体图标 测试1
+// 引入阿里巴巴字体图标 测试2
 import './assets/styles/iconfont/iconfont.css'
 
 // 引入ui组件样式修改文件
