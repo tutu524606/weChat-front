@@ -1,0 +1,100 @@
+{
+  "id": "1794924",
+  "name": "weChat",
+  "font_family": "iconfont",
+  "css_prefix_text": "iconfont-",
+  "description": "微信测试版",
+  "glyphs": [
+    {
+      "icon_id": "3405415",
+      "name": "拍照",
+      "font_class": "paizhao",
+      "unicode": "e6ed",
+      "unicode_decimal": 59117
+    },
+    {
+      "icon_id": "578733",
+      "name": "二维码",
+      "font_class": "erweima",
+      "unicode": "e680",
+      "unicode_decimal": 59008
+    },
+    {
+      "icon_id": "5387994",
+      "name": "添加好友_o",
+      "font_class": "tianjiahaoyou",
+      "unicode": "ebad",
+      "unicode_decimal": 60333
+    },
+    {
+      "icon_id": "797263",
+      "name": "我",
+      "font_class": "wo",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "14458032",
+      "name": "我",
+      "font_class": "wo_active",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "9278046",
+      "name": "发现",
+      "font_class": "faxian",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "14458031",
+      "name": "发现",
+      "font_class": "faxian_active",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "6682994",
+      "name": "通讯录",
+      "font_class": "tongxunlu",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "14458030",
+      "name": "通讯录",
+      "font_class": "tongxunlu-active",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "2551777",
+      "name": "聊天",
+      "font_class": "liaotian",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "14458029",
+      "name": "聊天",
+      "font_class": "liaotian-active",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "521966",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "769879",
+      "name": "加号-01",
+      "font_class": "jiahao",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    }
+  ]
+}

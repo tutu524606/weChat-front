@@ -1,0 +1,240 @@
+body {
+  background: #f1f0f6;
+  // padding-bottom: 70px;
+}
+
+.bd {
+  border: 1px solid;
+}
+
+.bzb {
+  box-sizing: border-box;
+}
+
+.h100pc {
+  height: 100%;
+}
+
+.w100pc {
+  width: 100%;
+}
+
+.dsn {
+  display: none;
+}
+
+// (4) 定位
+.fixed {
+  position: fixed;
+}
+
+.rel {
+  position: relative;
+}
+
+.abs {
+  position: absolute;
+}
+
+// (7)居中
+.tac {
+  text-align: center;
+}
+
+// (8) 行高
+.lh15 {
+  line-height: 1.5;
+}
+
+// 颜色设置
+.orange {
+  color: #ff5f16;
+}
+
+.f999 {
+  color: #999;
+}
+
+.fff {
+  color: #ffffff;
+}
+
+.gray {
+  color: #b5b5b5;
+}
+
+// (11) 背景颜色
+.bg-green {
+  background: green;
+}
+
+.bg-gray {
+  background: gray;
+}
+
+.bg-fff {
+  background: #ffffff;
+}
+
+.bg-black {
+  background: #222426;
+}
+
+// (12) 字体大小
+@0px: 0px; // margin-left
+
+.font(@n, @i: 12) when (@i =< @n) {
+  .f@{i} {
+    font-size: @i+@0px;
+  }
+
+  .font(@n, (@i + 2)); // +2得到的结果是1,3,5,7
+  // .mg-l(@n, (@i + 2));
+}
+
+.font(36);
+// (13) margin-left
+@0px: 0px; // margin-left
+
+.mg-l(@n, @i: 1) when (@i =< @n) {
+  .mg-l-@{i} {
+    margin-left: @i+@0px;
+  }
+
+  .mg-l(@n, (@i + 1));
+  // +2得到的结果是1,3,5,7
+  // .mg-l(@n, (@i + 2));
+}
+
+.mg-l(40);
+// (13) margin-right
+@0px: 0px; // margin-right
+
+.mg-r(@n, @i: 1) when (@i =< @n) {
+  .mg-r-@{i} {
+    margin-right: @i+@0px;
+  }
+
+  .mg-r(@n, (@i + 1));
+}
+
+.mg-r(40);
+
+// (14) margin-top
+.mg-t(@n, @i: 1) when (@i =< @n) {
+  .mg-t-@{i} {
+    margin-top: @i+@0px;
+  }
+
+  .mg-t(@n, (@i + 1));
+}
+
+.mg-t(60);
+
+// (15) padding-left
+.pd-l(@n, @i: 1) when (@i =< @n) {
+  .pd-l-@{i} {
+    padding-left: @i+@0px;
+  }
+
+  .pd-l(@n, (@i + 1));
+}
+
+.pd-l(40); // (16) padding-top
+
+// (15) padding-right
+.pd-r(@n, @i: 1) when (@i =< @n) {
+  .pd-r-@{i} {
+    padding-right: @i+@0px;
+  }
+
+  .pd-r(@n, (@i + 1));
+}
+
+.pd-r(40); // (16) padding-top
+
+.pd-t(@n, @i: 1) when (@i =< @n) {
+  .pd-t-@{i} {
+    padding-top: @i+@0px;
+  }
+
+  .pd-t(@n, (@i + 1));
+}
+
+.pd-t(40);
+
+// flex相关
+// 水平居中,垂直居中
+.fcc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ifcc {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// 垂直居中,两端对齐
+.flex-sb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// 垂直居中,分散对齐
+.flex-sa {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+// 剩余空间分配
+.fg1 {
+  flex-grow: 1;
+}
+
+.fg2 {
+  flex-grow: 2;
+}
+
+.flex {
+  display: flex;
+}
+
+// 纵向排列
+.fdc {
+  display: flex;
+  flex-direction: column;
+}
+
+// 水平垂直居中
+.fdcc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+// justify-content
+.jc-start {
+  justify-content: flex-start;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.jc-sa {
+  justify-content: space-around;
+}
+
+.ai-center {
+  align-items: center;
+}
